@@ -765,10 +765,11 @@ static const char* const kv_ev68cb[] = {
   "speed", "palcode.vms.nohle", "idle_nap", "idle_detect",
   "idle_spin_count", "idle_nap_poll_us", 0 };
 static const char* const kv_serial[] = {
-  "port", "listen_address", "action", "disabled", "raw_mode", "null_attach", 0 };
+  "port", "listen_address", "action", "disabled", "raw_mode", "null_attach",
+  "wait_for_connection", 0 };
 static const char* const kv_ali[] = { "vga_console", "lpt.outfile", 0 };
 static const char* const kv_ali_ide[] = { "dma", 0 };
-static const char* const kv_vga[] = { "rom", 0 };
+static const char* const kv_vga[] = { "rom", "wake_on_reset", 0 };
 static const char* const kv_gloria[] = {
   "rom", "rom_layout", "subsystem_from_rom", "vendor", "device", "revision",
   "subsystem_vendor", "subsystem_device", "chip_config", "mem_control",
